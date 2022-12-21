@@ -34,32 +34,33 @@ body {
     color: #1E0606;
 }
 
-.nav__search {
+.loupe {
     margin-right: 20px;
     position: relative;
 }
 
-.contact__us {
-    color: #1E0606;
-    font-size: 14px;
-    font-weight: 700;
-}
-
-.color {
+.navigation {
     color: #1E0606;
 }
 
-.color:hover {
+.navigation:hover {
     color: rgb(146, 146, 231);
     transition: 0.3s 
 }
 
+.navigation-right {
+    color: #1E0606;
+    font-size: 14px;
+    font-weight: 700;
+    padding-right: 20px;
+}
 
-.color__search {
+
+.navigation-right {
     color: #1E0606;
 }
 
-.color__search:hover {
+.navigation-right:hover {
     color: rgb(146, 146, 231);
     transition: 0.3s 
 }
@@ -137,7 +138,7 @@ body {
     height: 461px;
     left: 785px;
     top: 202px;
-    background: url(/img/image.png);
+    background: url(/yo-solovyov-andrey-2/img/image.png);
 }
 
 .line {
@@ -168,7 +169,7 @@ background: #C29974;
     color: #FFFFFF;
 }
 
-.text {
+.hamburger {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     font-size: 60px;

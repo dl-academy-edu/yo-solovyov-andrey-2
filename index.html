@@ -2,28 +2,33 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <left rel="stylesheet" href="./css/common.css">
-        <left rel="stylesheet" href="./css/style.css">
-            <left rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-                <title>DLK</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>DLK</title>
 </head>
 
 <body>
+
     <!-- Header Start -->
 
-    <header class="header">
+    <header class="header container">
         <img class="header__logo" src="./img/logo.svg" alt="logo">
-        <ul class="header__list">
-            <li class="header__list__item"><a class="header__list__link" href="./pages/blog.html">BLOG</a></li>
-            <li class="header__list__item"><a class="header__list__link" href="./pages/catalog.html">CATALOG</a></li>
-            <li class="header__list__item"><a class="header__list__link" href="#">ABOUT US</a></li>
+        <ul class="header__list undotted header__list__nav">
+            <li class="header__list__item"><a class="header__list__link" href="./pages/blog.html">BLOG</a>
+            </li>
+            <li class="header__list__item"><a class="header__list__link"href="./pages/catalog.html">CATALOG</a>
+            </li>
+            <li class="header__list__item"><a class="header__list__link" href="#">ABOUT US</a>
+            </li>
         </ul>
-        <ul class="header__list__contact">
-            <img class="header__list__contact__image" src="./img/search.png" alt="loupe">
-            <li class="header__list__contact__item"><a class="header__list__contact__link" href="#">CONTACT US</a></li>
+        <ul class="header__list__contact undotted">
+            <li class="header__list__contact__item">
+                <img class="header__list__contact__image" src="./img/search.png" alt="loupe">
+                <a class="header__list__contact__link" href="#">CONTACT US</a>
+            </li>
         </ul>
     </header>
 
@@ -32,80 +37,91 @@
     <!-- Main Start -->
 
     <main>
-        <banner class="banner">
-            <h1 class="banner__title">THE OOH NOO
-                COLLECTION</h1>
-            <p class="banner__title__paragraph">Designed in Slovenia</p>
-            <p class="banner__title__paragraph__basement">Free (continental) USA shipping on all orders of $100 USD or
-                more!</p>
-            <button class="banner__button" type="button">EXPLORER NOW</button>
-            <img class="banner__image" src="./img/image.png" alt="monster">
-        </banner>
-        <section class="section">
-            <h2 class="section__products__title">Category Products</h2>
-            <ul class="section__products__list">
-                <li class="section__products__list__item">
-                    <img class="section__products__list__image" src="./img/apparel.jpg" alt="sweatshirt">
-                    <a class="section__products__list__left" href="#">APPAREL KIDS</a>
+        <section class="banner">
+            <div class="container__banner">
+                <h1 class="banner__title">THE OOH NOO COLLECTION</h1>
+                <p class="banner__title__paragraph">Designed in Slovenia</p>
+                <p class="banner__title__paragraph__basement">Free (continental) USA shipping on all orders of $100 USD or more!</p>
+                <button class="banner__button bnt" type="button">EXPLORER NOW</button>
+                <img class="banner__image" src="./img/image.png" alt="monster">
+            </div>
+        </section>
+        <section class="catalog container">
+            <h2 class="catalog__products__title">Category Products</h2>
+            <ul class="catalog__products__list undotted">
+                <li class="catalog__products__list__item">
+                    <img class="catalog__products__list__image" src="./img/apparel.jpg" alt="sweatshirt">
+                    <a class="catalog__products__list__middle" href="#">APPAREL KIDS</a>
                 </li>
-                <li class="section__product__list__item">
-                    <img class="section__products__list__image" src="./img/holiday.jpg" alt="sock">
-                    <a class="section__products__left" href="#">HOLIDAY SHOP</a>
+                <li class="catalog__product__list__item">
+                    <img class="catalog__products__list__image" src="./img/holiday.jpg" alt="sock">
+                    <a class="catalog__products__list__middle" href="#">HOLIDAY SHOP</a>
                 </li>
-                <li class="section__product__list__item">
-                    <img class="section__products__list__image" src="./img/toys.jpg" alt="deer">
-                    <a class="section__products__left" href="#">TOYS</a>
+                <li class="catalog__product__list__item">
+                    <img class="catalog__products__list__image" src="./img/toys.jpg" alt="deer">
+                    <a class="catalog__products__list__middle" href="#">TOYS</a>
                 </li>
-                <li class="section__product__list__item">
-                    <img class="section__products__list__image" src="./img/accessories.jpg" alt="yeti">
-                    <a class="section__products__left" href="#">ACCESSORIES</a>
+                <li class="catalog__product__list__item">
+                    <img class="catalog__products__list__image" src="./img/accessories.jpg" alt="yeti">
+                    <a class="catalog__products__list__middle" href="#">ACCESSORIES</a>
                 </li>
-                <li class="section__product__right">
-                    <a href="#"><img class="section__products__right__image" src="./img/button.png" alt=""></a>
-                    <a href="#"><img class="section__products__right__image" src="./img/buttonrev.png" alt=""></a>
-                    <p class="section__products__paragraph">Modern finds for the modern home. Curated goods by unique
+                <li class="catalog__product__right">
+                    <a href="#"><img class="catalog__products__right__image" src="./img/button.png" alt=""></a>
+                    <a href="#"><img class="catalog__products__right__image" src="./img/buttonrev.png" alt=""></a>
+                    <p class="catalog__products__paragraph">Modern finds for the modern home. Curated goods by unique
                         designers around the world from fashion to furniture for kids and adults.</p>
                 </li>
             </ul>
         </section>
-        <developers class="developers">
-            <ul class="developers__list">
-                <li class="developers__list__item"><img src="./img/mail.jpg" alt="mail"></li>
-                <li class="developers__list__item"><img src="./img/apple.jpg" alt="apple"></li>
-                <li class="developers__list__item"><img src="./img/eltex.jpg" alt="eltex"></li>
-                <li class="developers__list__item"><img src="./img/owox.jpg" alt="owox"></li>
+        <section class="icon container">
+            <ul class="icon__list undotted">
+                <li class="icon__list__item"><img src="./img/mail.jpg" alt="mail"></li>
+                <li class="icon__list__item"><img src="./img/apple.jpg" alt="apple"></li>
+                <li class="icon__list__item"><img src="./img/eltex.jpg" alt="eltex"></li>
+                <li class="icon__list__item"><img src="./img/owox.jpg" alt="owox"></li>
             </ul>
-        </developers>
-        <about class="about">
-            <ul class="about__title">
-                <li class="about__title__item">
-                    <h2 class="about__title__paragraph">Design Life Kids</h2>
-                    <p class="about__title__about">About Us</p>
-                    <p clas="about__title__info">Some days i feel like i've been working on dlk my entire life
+        </section>
+        <section class="about container">
+            <ul class="about__list undotted">
+                <li class="about__list__item">
+                    <h2 class="about__list__title">Design Life Kids</h2>
+                </li>
+                <li class="about__list__item">
+                    <p class="about__list__paragraph">About Us</p>
+                </li>
+                <li class="about__list__item">
+                    <p class="about__title__info">Some days i feel like i've been working on dlk my entire life
                         and there are other days that i am completely shocked that
                         four years have flown by. It's simply magical.</p>
-                    <a class="about__title__button" type="button" href="#">BUY NOW</a>
+                </li>
+                <li class="about__title__item ">
+                    <button class="about__title__button bnt" type="button">BUY NOW</button>
                 </li>
             </ul>
-            <ul class="contacts">
-                <h3>Contacts</h3>
-                <p>Some days i feel like i've been working on dlk my entire
-                    life and there are other days that i am completely shocked
-                    that four years have flown by. It's simply magical.</p>
+            <ul class="contacts undotted">
+                <li class="contacts__list">
+                    <h2 class="contacts__title">Contacts</h2>
+                </li>
+                <li class="contacts__list">
+                    <p class="contacts__list__info">Some days i feel like i've been working on dlk my entire
+                        life and there are other days that i am completely shocked
+                        that four years have flown by. It's simply magical.</p>
+                </li>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1531.9226869499123!2d-122.42496875578621!3d37.7754415913214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580a196ede719%3A0x2fb5607634331f2f!2z0KXQsNC50LXRgSDQktGN0LvQu9C4LCDQodCw0L0t0KTRgNCw0L3RhtC40YHQutC-LCDQmtCw0LvQuNGE0L7RgNC90LjRjywg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1671907627467!5m2!1sru!2sru"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>" frameborder="0"></iframe>
+                </li>
             </ul>
-        </about>
+        </section>
     </main>
     <!-- Main End -->
 
     <!-- Footer Start -->
     <footer class="footer">
-        <section class="footer__inner">
-            <h4 class="footer__navigation">Navigation</h4>
-            <ul class="footer__list__left">
+        <section class="footer__inner container">
+            <h2 class="footer__navigation">Navigation</h2>
+            <ul class="footer__list__left undotted">
                 <li class="footer__list__left__item">About Us<a class="footer__list__left__link" href="#"></a></li>
                 <li class="footer__list__left__item">BLOG<a class="footer__list__left__link" href="#"></a></li>
                 <li class="footer__list__left__item">Design Services<a class="footer__list__left__link" href="#"></a>
@@ -119,8 +135,8 @@
                 <li class="footer__list__left__item"><img class="footer__list__left__image" src="./img/stars.png"
                         alt="stars"></li>
             </ul>
-            <h5 class="footer__information">Customer Information</h5>
-            <ul class="footer__list__middle">
+            <h2 class="footer__information">Customer Information</h2>
+            <ul class="footer__list__middle undotted">
                 <li class="footer__list__middle__item">Contact Us<a class="footer__list__middle__link" href="#"></a>
                 </li>
                 <li class="footer__list__middle__item">Sale Exclusions<a class="footer__list__middle__link"
@@ -134,19 +150,20 @@
                 <li class="footer__list__middle__item">Search<a class="footer__list__middle__link" href="#"></a></li>
                 <li class="footer__list__middle__item">Copyright © DLK • Design Life Kid</li>
             </ul>
-            <h6 class="footer__connect">Connect</h6>
-            <ul class="footer__list__right"></ul>
-            <li class="footer__list__right__item"><a class="footer__list__right__link" href="#"></a>Email</li>
-            <li class="footer__list__right__item"><a class="footer__list__right__link" href="#"></a><img
-                    class="footer__list__right__image" src="./img/Facebook.svg" alt="Facebook"></li>
-            <li class="footer__list__right__item"><a class="footer__list__right__link" href="#"></a><img
-                    class="footer__list__right__image" src="./img/Twitter.svg" alt="Twitter"></li>
-            <li class="footer__list__right__item"><a class="footer__list__right__link" href="#"></a><img
-                    class="footer__list__right__image" src="./img/Pinterest.svg" alt="Pinterest"></li>
-            <li class="footer__list__right__item"><a class="footer__list__right__link" href="#"></a><img
-                    class="footer__list__right__image" src="./img/Instagram.svg" alt="Instagram"></li>
-            <li class="footer__list__right__item">Web Design — Direct Line Development</li>
-            <button class="footer__list__right__button" type="button">JOIN</button>
+            <h2 class="footer__connect">Connect</h2>
+            <ul class="footer__list__right undotted"></ul>
+                <li class="footer__list__right__item__email"><a class="footer__list__right__link" href="#"></a>Email</li>
+                    <button class="footer__list__right__button bnt" type="button">JOIN</button>
+                <li class="footer__list__right__item"><a class="footer__list__right__link" href="#"></a><img
+                        class="footer__list__right__image" src="./img/Facebook.svg" alt="Facebook"></li>
+                <li class="footer__list__right__item"><a class="footer__list__right__link" href="#"></a><img
+                        class="footer__list__right__image" src="./img/Twitter.svg" alt="Twitter"></li>
+                <li class="footer__list__right__item"><a class="footer__list__right__link" href="#"></a><img
+                        class="footer__list__right__image" src="./img/Pinterest.svg" alt="Pinterest"></li>
+                <li class="footer__list__right__item"><a class="footer__list__right__link" href="#"></a><img
+                        class="footer__list__right__image" src="./img/Instagram.svg" alt="Instagram"></li>
+                <li class="footer__list__right__item__text">Web Design — Direct Line Development</li>
+            </ul>
         </section>
     </footer>
     <!-- Footer End -->

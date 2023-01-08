@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.undotted{
+	list-style-type: none;
+}
+
+.container {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	margin-top: 51px;
+}
+
+.header__logo {
+	margin-right: 58px;
+}
+
+.header__list {
+	display: flex;
+	gap: 20px;
+}
+
+.header__list__nav {
+	margin-right: auto;
+}
+
+.header__list__link {
+	color:#1E0606;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+}
+
+.header__list__contact__item {
+	display: flex;
+	align-items: center;
+}
+
+.header__list__contact__image {
+	margin-right: 20px;
+}
+
+
+.header__list__contact__link {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+	color: #1E0606;
+}
+
+.catalog__products__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+}
+
+.catalog__products__list__middle {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 32px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #741313;
+}
+
+.footer__navigation {
+	font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #AAAAAA;
+}
+
+.footer__list__left__item {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+}
+
+.footer__information {
+	font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #AAAAAA;
+}
+
+.footer__list__middle__item {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;	
+	color: #FFFFFF;
+}
+
+.footer__list__right__item__email {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	display: flex;
+	align-items: center;
+	color: #EBEBEB;
+}
+
+.footer__list__right__button {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 22px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.footer__list__right__item__text {
+	font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #A2A2A2;
+}

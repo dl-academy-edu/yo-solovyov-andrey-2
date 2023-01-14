@@ -19,7 +19,6 @@
     left: 363px;
     top: 231px;
     background: #EEE4DB;
-
 }
 
 .banner__title {
@@ -32,8 +31,8 @@
     position: absolute;
     width: 307px;
     height: 88px;
-    left: 243px;
-    top: 320px;
+    left: 500px;
+    top: 300px;
 }
 
 .banner__title__img {
@@ -48,7 +47,7 @@
     position: absolute;
     width: 61px;
     height: 74px;
-    left: 138px;
+    left: 385px;
     top: 248px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -67,8 +66,8 @@
     position: absolute;
     width: 152px;
     height: 26px;
-    left: 243px;
-    top: 428px;
+    left: 500px;
+    top: 430px;
 }
 
 .banner__title__paragraph__basement {
@@ -93,7 +92,7 @@
 .banner__button {
 	font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 22px;
     display: flex;
     align-items: center;
@@ -103,8 +102,8 @@
     position: absolute;
     width: 161px;
     height: 40px;
-    left: 243px;
-    top: 474px;
+    left: 500px;
+    top: 480px;
 }
 
 .bnt {
@@ -112,15 +111,172 @@
 	padding: 9px 22px;
 }
 
+.catalog {
+    position: absolute;
+    width: 1180px;
+    height: 421px;
+    left: 250px;
+    top: 0px;
+}
+
+.catalog__product__nav {
+    position: absolute;
+    width: 680px;
+    height: 44px;
+    left: 110px;
+    top: 1109px;
+}
+
+.catalog__products__title {
+    position: absolute;
+    width: 454px;
+    height: 47px;
+    left: 110px;
+    top: 732px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+    }
+
+.catalog__products__list {
+    display: flex;
+    position: absolute;
+    width: 1180px;
+    height: 344px;
+    left: 110px;
+    top: 809px;
+    gap: 20px;
+}
+
+
+.catalog__products__list__one {
+    position: absolute;
+    top: 38%;
+    left: 12%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+    max-width: 130px;
+}
+
+.catalog__products__list__two {
+    position: absolute;
+    top: 38%;
+    left: 37%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+    max-width: 120px;
+}
+
+.catalog__products__list__three {
+    position: absolute;
+    top: 39%;
+    left:63%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+}
+
+.catalog__products__list__four {
+    position: absolute;
+    top: 39%;
+    left: 88%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+}
+
+.catalog__product__nav {
+    position: absolute;
+    width: 1180px;
+    height: 421px;
+    left: 110px;
+    top: 1110px;
+}
 
 .catalog__products__paragraph {
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 22px;
-	color: #1E0606;
+    position: absolute;
+    width: 580px;
+    height: 44px;
+    left: 100px;
+    top: -4px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
 }
+
+.icon {
+    position: absolute;
+    width: 1180px;
+    height: 61px;
+    left: 110px;
+    top: 1200px;
+    margin-left: 127px;
+}
+
+.icon__list {
+    display: flex;
+    align-items: center;
+    gap: 127px;
+    padding-left: 125px;
+}
+
+.about {
+    position: absolute;
+    width: 1143px;
+    height: 359px;
+    left: 360px;
+    top: 1300px;
+    display: flex;
+}
+
+.about__list {
+    display: flex;
+    gap: 74px;
+    background: #E1F0F7;
+    background-position: 10px 5%;
+}
+
 
 .about__list__title {
     font-family: 'Montserrat';
@@ -129,9 +285,14 @@
     font-size: 38px;
     line-height: 46px;
     text-transform: uppercase;
+    padding-bottom: 10px;
 }
 
-.about__list__paragraph{
+.about__list__paragraph {
+    width: 86px;
+    height: 33px;
+    left: 140px;
+    top: 2100px;
     font-family: 'Crimson Text';
     font-style: italic;
     font-weight: 400;
@@ -147,19 +308,8 @@
     font-size: 16px;
     line-height: 22px;
     color: #1E0606;
-}
-
-.header__about__title__button {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 22px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .about__title__button {
@@ -174,6 +324,11 @@
     color: #FFFFFF;
 }
 
+.contact__list {
+    background: #E1F0F7;
+    background-position: left
+}
+
 .contacts__title {
     font-family: 'Montserrat';
     font-style: normal;
@@ -182,6 +337,17 @@
     line-height: 46px;
     text-transform: uppercase;
     color: #1E0606;
+    padding-bottom: 10px;
+}
+
+.contacts__list__info{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    padding-bottom: 30px;
 }
 
 .contacts__list__info {
@@ -192,3 +358,12 @@
     color: #1E0606;
 }
 
+.footer__inner {
+    padding-top: 1670px;
+    display: flex;
+    align-items: center;
+}
+
+.footer__navigation {
+    background: #434343;
+}

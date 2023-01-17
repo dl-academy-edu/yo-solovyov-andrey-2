@@ -103,6 +103,20 @@ a {
 	color: #741313;
 }
 
+.background {
+	position: absolute;
+	left: 19%;
+	right: 0%;
+	top: 200%;
+	bottom: 0%;
+	background: #434343;
+	Width: 1180px;
+	Height: 555px;
+	flex: 0 0 auto;
+	margin-top: 50px;
+	columns: 20px 3;
+}
+
 .footer__navigation {
 	font-style: normal;
 font-weight: 400;
@@ -160,10 +174,10 @@ color: #AAAAAA;
 
 .footer__list__right__item__text {
 	font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
-display: flex;
-align-items: center;
-color: #A2A2A2;
-}
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	display: flex;
+	align-items: center;
+	color: #A2A2A2;
+	}

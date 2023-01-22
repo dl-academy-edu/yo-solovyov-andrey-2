@@ -15,6 +15,11 @@ a {
 	text-decoration: none;
 }
 
+.bnt {
+	background: #000000;
+	padding: 9px 22px;
+}
+
 .undotted{
 	list-style-type: none;
 }
@@ -51,7 +56,6 @@ a {
 	line-height: 19px;
 	display: flex;
 	align-items: center;
-	text-transform: uppercase;
 	color: #1E0606;
 }
 
@@ -59,7 +63,7 @@ a {
 	color:#1E0606;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 19px;
 }
 
@@ -74,9 +78,10 @@ a {
 
 
 .header__list__contact__link {
+	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 19px;
 	display: flex;
 	align-items: center;
@@ -103,29 +108,34 @@ a {
 	color: #741313;
 }
 
-.background {
-	position: absolute;
-	left: 19%;
-	right: 0%;
-	top: 200%;
-	bottom: 0%;
+.footer {
 	background: #434343;
-	Width: 1180px;
-	Height: 555px;
-	flex: 0 0 auto;
-	margin-top: 50px;
-	columns: 20px 3;
-}
+	width: 1400px;
+	height: 555px;
+	margin: 200px auto;
+	}
 
-.footer__navigation {
-	font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
-color: #AAAAAA;
+.footer__list__left {
+	padding-top: 100px;
+	padding-left: 110px;
 }
 
 .footer__list__left__item {
+	margin-bottom: 15px;
+}
+
+.footer__list__left__navigation {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	color: #AAAAAA;
+	margin-bottom: 52px;
+}
+
+.footer__list__left__link {
+	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
@@ -133,24 +143,51 @@ color: #AAAAAA;
 	color: #FFFFFF;
 }
 
-.footer__information {
-	font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
-color: #AAAAAA;
+.footer__list__middle {
+	margin-top: -300px;
+	padding-left: 510px;
 }
 
 .footer__list__middle__item {
+	margin-bottom: 15px;
+}
+
+.footer__list__middle__information {
+	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
-	line-height: 22px;	
+	line-height: 22px;
+	color: #AAAAAA;
+	margin-bottom: 52px;
+}
+
+.footer__list__middle__link {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
 	color: #FFFFFF;
 }
 
-.footer__list__right__item__email {
+.footer__list__right {
+	padding-left: 910px;
+	margin-top: -300px;
+}
+
+.footer__list__right__connect {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	color: #AAAAAA;
+	margin-bottom: 49px;
+}
+
+.footer__list__right__email {
+	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
@@ -158,26 +195,84 @@ color: #AAAAAA;
 	display: flex;
 	align-items: center;
 	color: #EBEBEB;
+	background-color: #666666;
+	width: 380px;
+	height: 40px;
+	padding: 9px 324px 9px 15px;
+	margin-bottom: 25px;
 }
 
+::-webkit-input-placeholder {
+	color: rgb(255, 255, 255);
+}
+
+input {outline:none;}
+
 .footer__list__right__button {
+	margin-left: 244px;
+	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 22px;
-	display: flex;
-	align-items: center;
-	text-align: center;
-	text-transform: uppercase;
 	color: #FFFFFF;
+	height: 40px;
+
 }
 
-.footer__list__right__item__text {
+.footer__list__icon {
+	display: flex;
+	gap: 10px;
+	margin-left: -5px;
+}
+
+.footer__list__bottom {
+	display: flex;
+	padding-top: 200px;
+	padding-left: 110px;
+}
+
+.footer__list__bottom__item {
+	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 22px;
 	display: flex;
 	align-items: center;
-	color: #A2A2A2;
-	}
+	color: #FFFFFF;
+	margin-top: -340px;
+}
+
+.stars {
+	padding-left: 25px;
+}
+
+.copyright {
+	padding-left: 154px;
+}
+
+.web {
+	padding-left: 155px;
+	color: #A2A2A2;;
+}
+
+.line__left {
+	margin-top: -32px;
+	margin-bottom: 25px;
+}
+
+.line__middle {
+	margin-top: -22px;
+	margin-bottom: 25px;
+}
+
+.line__right {
+	margin-top: -19px;
+	margin-bottom: 25px;
+}
+
+.line__bottom {
+	margin-left: 110px;
+	margin-top: 100px;
+}

@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&display=swap');
+
+.title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #1E0606;
+    padding-top: 60px;
+    margin-bottom: 15px;
+}
+
+.breadcrumb {
+    display: flex;
+    margin-bottom: 49px;
+}
+
+.breadcrumb > li + li:before {
+    padding: 20px;
+    color: #1E0606;
+    content: ">";
+}
+
+.breadcrumb__link__home {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+}
+
+.breadcrumb__item__active {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+    opacity: 0.5;
+}
+
+.catalog__list {
+    display: flex;
+    margin-bottom: 23px;
+    gap: 20px;
+}
+
+.catalog__list__apparel {
+    width: 125px;
+    position: absolute;
+    left: 23%;
+    top: 41.5%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+}
+
+.catalog__list__holiday {
+    width: 125px;
+    position: absolute;
+    left: 38.8%;
+    top: 41.7%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+}
+
+.catalog__list__toys {
+    position: absolute;
+    left: 56%;
+    top: 43.2%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+}
+
+.catalog__list__lower {
+    display: flex;
+    padding-left: 205px;
+    gap: 20px;
+    margin-bottom: 55px;
+}
+
+.catalog__list__accessories {
+    position: absolute;
+    left: 32%;
+    top: 73.4%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+}
+
+.catalog__list__sale {
+    position: absolute;
+    left: 51%;
+    top: 73.4%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+}
+
+.catalog__list__apparel__adults {
+    width: 129px;
+    position: absolute;
+    left: 65.1%;
+    top: 71.7%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+}
+
+.description__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    color: #1E0606;
+    margin-bottom: 25px;
+}
+
+.description__list {
+    padding-left: 310px;
+}
+
+.description__paragraph {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    margin-bottom: 15px;
+    width: 669px;
+}
+

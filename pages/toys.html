@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toys</title>
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/common.css">
-    <link rel="stylesheet" href="../css/blog.css">
-    <title>Blog</title>
+    <link rel="stylesheet" href="../css/toys.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
 </head>
 
 <body>
@@ -40,73 +42,48 @@
 
     <!-- Main Start -->
 
-    <h1 class="title container">Category Products</h1>
+    <h1 class="title container">TOY FOR KIDS</h1>
 
     <ul class="breadcrumb container undotted">
         <li class="breadcrumb__item"><a class="breadcrumb__link__home" href="../index.html">Home</a></li>
-        <li class="breadcrumb__item__active">Blog</li>
+        <li class="breadcrumb__item"><a class="breadcrumb__link__home" href="./catalog.html">Catalog</a></li>
+        <li class="breadcrumb__item__active">Toys</li>
     </ul>
-    <section class="catalog container">
-        <ul class="catalog__list undotted">
-            <li class="catalog__list__item">
-                <img class="catalog__list__img" src="../img/blog_image1.png" alt="lego">
-                <p class="catalog__list__paragraph__date">23rd August 2018</p>
-                <h2 class="catalog__list__title">Top 5 fastest growing it service companies in philly</h2>
-                <p class="catalog__list__paragraph">Direct Line Developments Team is excited to announce that we
-                    received UpCitys 2019 Local Excellence
-                    Award! This prestigious award is annually presented to the Top 1% of service providers in the given
-                    marketplace.</p>
+    <section class="radio__checkbox">
+        <ul>
+
+        </ul>
+        <ul class="checkbox__list undotted">
+            <h2 class="checkbox__title">Color</h2>
+            <li class="checkbox__item">
+                <input type="checkbox" class="chekbox__input" id="black">
+                <label for="black" class="chekbox__label">Black</label>
             </li>
-            <li class="catalog__list__item">
-                <img class="catalog__list__img" src="../img/blog_image2.png" alt="animal toys">
-                <p class="catalog__list__paragraph__date">23rd August 2018</p>
-                <h2 class="catalog__list__title">Best financial</h2>
-                <p class="catalog__list__paragraph">Direct Line Development is honored to be recognized as one of the
-                    Top 100 Fastest Growing Companies 2019 in Philadelphia, according to Growjos ranking.</p>
+            <li class="checkbox__item">
+                <input type="checkbox" class="chekbox__input" id="blue">
+                <label for="blue" class="chekbox__label">Blue</label>
             </li>
-            <li class="catalog__list__item">
-                <img class="catalog__list__img" src="../img/blog_image3.png" alt="small toys">
-                <p class="catalog__list__paragraph__date">23rd August 2018</p>
-                <h2 class="catalog__list__title">Company logo or brand identity: which one is more important? brand
-                    identity</h2>
-                <p class="catalog__list__paragraph">To survive in the world of digital marketing, you need to keep up
-                    with the latest SEO trends. Here are our simple, but effective, SEO tips for small business success.
-                </p>
+            <li class="checkbox__item">
+                <input type="checkbox" class="chekbox__input" id="green">
+                <label for="green" class="chekbox__label">Green</label>
             </li>
-            <li class="catalog__list__item">
-                <img class="catalog__list__img" src="../img/blog_image4.png" alt="Buzz Lightyear">
-                <p class="catalog__list__paragraph__date">23rd August 2018</p>
-                <h2 class="catalog__list__title">Best financial</h2>
-                <p class="catalog__list__paragraph">Direct Line Development is honored to be recognized as one of the
-                    Top 100 Fastest Growing Companies 2019 in Philadelphia, according to Growjos ranking.</p>
-            </li>
-            <li class="catalog__list__item">
-                <img class="catalog__list__img" src="../img/blog_image5.png" alt="Rapunzel">
-                <p class="catalog__list__paragraph__date">23rd August 2018</p>
-                <h2 class="catalog__list__title">Company logo or brand identity: which one is more important? brand
-                    identity</h2>
-                <p class="catalog__list__paragraph">To survive in the world of digital marketing, you need to keep up
-                    with the latest SEO trends. Here are our simple, but effective, SEO tips for small business success.
-                </p>
-            </li>
-            <li class="catalog__list__item">
-                <img class="catalog__list__img" src="../img/blog_image6.png" alt="DnD cubes">
-                <p class="catalog__list__paragraph__date">23rd August 2018</p>
-                <h2 class="catalog__list__title">Top 5 fastest growing it service companies in philly</h2>
-                <p class="catalog__list__paragraph">Direct Line Developments Team is excited to announce that we
-                    received UpCitys 2019 Local Excellence Award! This prestigious award is annually presented to the
-                    Top 1% of service providers in the given marketplace.</p>
+            <li class="checkbox__item">
+                <input type="checkbox" class="chekbox__input" id="white">
+                <label for="white" class="chekbox__label">White</label>
             </li>
         </ul>
-        <ul class="catalog__list__number__bottom undotted">
-            <li class="catalog__list__number"><a class="catalog__list__number__list" href="#">1</a></li>
-            <li class="catalog__list__number"><a class="catalog__list__number__list" href="#">2</a></li>
-            <li class="catalog__list__number"><a class="catalog__list__number__list" href="#">3</a></li>
-            <li class="catalog__list__number"><a class="catalog__list__number__list" href="#">4</a></li>
+        <ul class="radio__list undotted">
+            <h2 class="radio__title undotted">Delivery</h2>
+            <li class="radio__item">
+                <input type="radio" class="radio__input" id="free shipping" name="s">
+                <label for="free shipping" class="radio__label">Free shipping</label>
+            </li>
+            <li class="radio__item">
+                <input type="radio" class="radio__input" id="fast shipping" name="s">
+                <label for="fast shipping" class="radio__label">Fast shipping</label>
+            </li>
         </ul>
     </section>
-
-    <!-- Main End -->
 
 
     <!-- Footer Start -->

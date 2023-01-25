@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&display=swap');
+
+.title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #1E0606;
+    padding-top: 60px;
+    margin-bottom: 15px;
+}
+
+
+.breadcrumb {
+    display: flex;
+    margin-bottom: 49px;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb>li+li:before {
+    padding: 20px;
+    color: #1E0606;
+    content: ">";
+}
+
+.breadcrumb__link__home {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+}
+
+.breadcrumb__item__active {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+    opacity: 0.5;
+}
+
+.radio__checkbox {
+    height: 254px;
+    background: rgba(125, 151, 218, 0.2);
+    -webkit-background-size: 100%;
+}
+
+.checkbox__list {
+    padding-left: 411px;
+}
+
+.checkbox__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    padding-top: 42px;
+    margin-bottom: 15px;
+}
+
+.checkbox__item {
+    margin-bottom: 15px;
+}
+
+.chekbox__input {
+    opacity: 0;
+}
+
+.chekbox__label {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
+
+.chekbox__label::before {
+    position: absolute;
+    margin-left: -25px;
+    content: '';
+    cursor: pointer;
+    width: 19px;
+    height: 19px;
+    background-image: url('../img/chekboxoff.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.chekbox__input:checked + .chekbox__label::before {
+    content: '';
+    width: 19px;
+    height: 19px;
+    background-image: url('../img/chekboxon.png');
+}
+
+.radio__list {
+    padding-left: 600px;
+    margin-top: -185px;
+
+}
+
+.radio__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    margin-bottom: 15px;
+}
+
+.radio__item {
+    margin-bottom: 15px;
+}
+
+.radio__input {
+    opacity: 0;
+}
+
+.radio__label {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    margin-bottom: 25px;
+}
+
+.radio__label::before {
+    position: absolute;
+    margin-left: -25px;
+    content: '';
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/radioOff.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.radio__input:checked + .radio__label::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/radioOn.png');
+}

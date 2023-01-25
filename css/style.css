@@ -37,8 +37,8 @@
     position: absolute;
     width: 636px;
     height: 489px;
-    left: 44%;
-    top: 20%;
+    left: 42.5%;
+    top: 25%;
 }
 
 .banner__list__paragraph {
@@ -119,8 +119,8 @@
     display: flex;
     align-items: center;
     position: absolute;
-    top: 37%;
-    left: 27%;
+    top: 45%;
+    left: 21%;
     width: 29px;
     height: 45px;
     cursor: pointer;
@@ -381,7 +381,7 @@
     background-color: #E1F0F7;
     height: 228px;
     width: 548px;
-    margin-left: 600px;
+    margin-left: 360px;
 }
 
 .about__list {
@@ -439,7 +439,7 @@
     width: 548px;
     height: 209px;
     background: #E1F0F7;
-    margin-left: 1200px;
+    margin-left: 960px;
     margin-top: -227px;
 }
 

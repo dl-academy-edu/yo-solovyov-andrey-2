@@ -50,6 +50,8 @@
     height: 254px;
     background: rgba(125, 151, 218, 0.2);
     -webkit-background-size: 100%;
+    padding-left: 270px;
+    margin-bottom: 60px;
 }
 
 .checkbox__list {
@@ -69,10 +71,11 @@
 
 .checkbox__item {
     margin-bottom: 15px;
+    padding-left: 25px;
 }
 
 .chekbox__input {
-    opacity: 0;
+    display: none;
 }
 
 .chekbox__label {
@@ -96,7 +99,7 @@
     background-repeat: no-repeat;
 }
 
-.chekbox__input:checked + .chekbox__label::before {
+.chekbox__input:checked+.chekbox__label::before {
     content: '';
     width: 19px;
     height: 19px;
@@ -106,7 +109,6 @@
 .radio__list {
     padding-left: 600px;
     margin-top: -185px;
-
 }
 
 .radio__title {
@@ -121,10 +123,11 @@
 
 .radio__item {
     margin-bottom: 15px;
+    margin-left: 25px;
 }
 
 .radio__input {
-    opacity: 0;
+    display: none;
 }
 
 .radio__label {
@@ -149,9 +152,123 @@
     background-repeat: no-repeat;
 }
 
-.radio__input:checked + .radio__label::before {
+.radio__input:checked+.radio__label::before {
     content: '';
     width: 20px;
     height: 20px;
     background-image: url('../img/radioOn.png');
+}
+
+.radio__button {
+    padding-left: 800px;
+    margin-top: -112px;
+}
+
+.button__input {
+    display: none;
+}
+
+.radio__button__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    margin-bottom: 15px;
+}
+
+.form__radio__group-item {
+    display: inline-block;
+    float: left;
+    background: #f8f8f8;
+}
+
+.form__radio__group-item:hover {
+    background: #EDDEEB
+}
+
+.form__radio__group input[type=radio] {
+    display: none;
+}
+
+.form__radio__group label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0px 15px;
+    line-height: 34px;
+}
+
+.form__radio__group input[type=radio]:checked+label {
+    background: #F3D0DB;
+}
+
+.form__radio_group label:hover {
+    color: #877379;
+}
+
+.button__toys {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-left: 100px;
+}
+
+.toys {
+    column-count: 3;
+    gap: 20px;
+}
+
+.toys__img {
+    margin-bottom: 30px;
+}
+
+.toys__img:hover {
+    background: #123eb8;
+    opacity: 0.2;
+}
+
+.toys__name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #1E0606;
+    margin-bottom: 15px;
+}
+
+.toys__prices {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #1E0606;
+    margin-bottom: 75px;
+}
+
+.toys__numbers__bottom {
+    display: flex;
+    gap: 64px;
+    padding-top: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: -330px;
+}
+
+.toys__numbers__link {
+    color: #1E0606;
+}
+
+.one {
+    color: #C29974;
 }

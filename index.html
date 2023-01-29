@@ -31,7 +31,7 @@
         <ul class="header__list__contact undotted">
             <li class="header__list__contact__item">
                 <img class="header__list__contact__image" src="./img/search.png" alt="loupe">
-                <a class="header__list__contact__link" href="#">CONTACT US</a>
+                <a class="header__list__contact__link" href="./pages/contactUs.html">CONTACT US</a>
             </li>
         </ul>
     </header>
@@ -50,15 +50,17 @@
                 <p class="banner__list__paragraph">Designed in Slovenia</p>
             </li>
             <li class="banner__list__item">
-                <button class="banner__list__button bnt" type="button">EXPLORER NOW</button>
+                <button class="banner__list__button banner__list__button-js bnt " type="button">EXPLORER NOW</button>
             </li>
             <li class="banner__list__item">
                 <p class="banner__list__paragraph__basement">Free (continental) USA shipping on all orders of $100 USD
                     or more!</p>
             </li>
             <li class="banner__list__item">
-                <img class="banner__list__img" src="./img/image.png" alt="monster">
+                <img class="banner__list__img " src="./img/image.png" alt="monster">
             </li>
+
+
         </ul>
         <ul class="hamburger__menu undotted">
             <li class="banner__list__item">
@@ -80,22 +82,24 @@
         </ul>
     </section>
     <section class="catalog container">
-        <h2 class="catalog__products__title">Category Products</h2>
-        <ul class="catalog__products__list undotted">
-            <li class="catalog__products__list__img"><img class="catalog__products__list__image" src="./img/apparel.jpg"
-                    alt="sweatshirt"></li>
-            <li class="catalog__products__list__img"><img class="catalog__products__list__image" src="./img/holiday.jpg"
-                    alt="sock"></li>
-            <li class="catalog__products__list__img"><img class="catalog__products__list__image" src="./img/toys.jpg"
-                    alt="deer"></li>
-            <li class="catalog__products__list__img"><img class="catalog__products__list__image"
-                    src="./img/accessories.jpg" alt="yeti"></li>
-        </ul>
-        <ul class="catalog__products__list__second undotted">
-            <li><a class="catalog__products__list__second__one" href="#">APPAREL KIDS</a></li>
-            <li><a class="catalog__products__list__second__two" href="#">HOLIDAY SHOP</a></li>
-            <li><a class="catalog__products__list__second__three" href="#">TOYS</a></li>
-            <li><a class="catalog__products__list__second__four" href="#">ACCESSORIES</a></li>
+        <h2 class="catalog__title">Category Products</h2>
+        <ul class="catalog__list undotted">
+            <li class="catalog__list__item">
+                <img class="catalog__list__image" src="./img/apparel.jpg" alt="sweatshirt">
+                <a class="catalog__list__apparel underline" href="#">APPAREL KIDS</a>
+            </li>
+            <li class="catalog__list__item">
+                <img class="catalog__list__image" src="./img/holiday.jpg" alt="sock">
+                <a class="catalog__list__holiday underline" href="#">HOLIDAY SHOP</a>
+            </li>
+            <li class="catalog__list__item">
+                <img class="catalog__list__image" src="./img/toys.jpg" alt="deer">
+                <a class="catalog__list__toys  underline" href="./pages/toys.html">TOYS</a>
+            </li>
+            <li class="catalog__list__item">
+                <img class="catalog__list__image" src="./img/accessories.jpg" alt="yeti">
+                <a class="catalog__list__accessories underline" href="#">ACCESSORIES</a>
+            </li>
         </ul>
         <ul class="catalog__products__nav">
             <a href="#"><img class="catalog__products__nav__image" src="./img/button.png" alt=""></a>
@@ -178,48 +182,58 @@
     <!-- Footer Start -->
 
     <footer class="footer">
-        <ul class="footer__list__left container undotted">
+        <ul class="footer__list__left undotted">
             <li class="footer__list__left__item">
                 <h2 class="footer__list__left__navigation">Navigation</h2>
                 <hr class="line__left" size=1px width=380px color="#666666">
             </li>
-            <li class="footer__list__left__item"><a class="footer__list__left__link" href="#">About Us</a></li>
-            <li class="footer__list__left__item"><a class="footer__list__left__link" href="#">BLOG</a></li>
-            <li class="footer__list__left__item"><a class="footer__list__left__link" href="#">Design Services</a>
+            <li class="footer__list__left__item"><a class="footer__list__left__link hover-footer" href="#">About Us</a>
             </li>
-            <li class="footer__list__left__item"><a class="footer__list__left__link" href="#">Featured On</a>
+            <li class="footer__list__left__item"><a class="footer__list__left__link hover-footer" href="#">BLOG</a></li>
+            <li class="footer__list__left__item"><a class="footer__list__left__link hover-footer" href="#">Design
+                    Services</a>
             </li>
-            <li class="footer__list__left__item"><a class="footer__list__left__link" href="#">2018 Holiday
+            <li class="footer__list__left__item"><a class="footer__list__left__link hover-footer" href="#">Featured
+                    On</a>
+            </li>
+            <li class="footer__list__left__item"><a class="footer__list__left__link hover-footer" href="#">2018 Holiday
                     Catalog</a>
             </li>
-            <li class="footer__list__left__item"><a class="footer__list__left__link" href="#">Shop By Designer</a>
+            <li class="footer__list__left__item"><a class="footer__list__left__link hover-footer" href="#">Shop By
+                    Designer</a>
             </li>
         </ul>
-        <ul class="footer__list__middle container undotted">
+        <ul class="footer__list__middle undotted">
             <li class="footer__list__middle__item">
                 <h2 class="footer__list__middle__information">Customer Information</h2>
                 <hr class="line__middle" size=1px width=380px color="#666666">
             </li>
-            <li class="footer__list__middle__item"><a class="footer__list__middle__link" href="#">Contact Us</a>
+            <li class="footer__list__middle__item"><a class="footer__list__middle__link hover-footer" href="#">Contact
+                    Us</a>
             </li>
-            <li class="footer__list__middle__item"><a class="footer__list__middle__link" href="#">Sale Exclusions</a>
+            <li class="footer__list__middle__item"><a class="footer__list__middle__link hover-footer" href="#">Sale
+                    Exclusions</a>
             </li>
-            <li class="footer__list__middle__item"><a class="footer__list__middle__link" href="#">Shipping & Returns</a>
+            <li class="footer__list__middle__item"><a class="footer__list__middle__link hover-footer" href="#">Shipping
+                    & Returns</a>
             </li>
-            <li class="footer__list__middle__item"><a class="footer__list__middle__link" href="#">Terms & Conditions</a>
+            <li class="footer__list__middle__item"><a class="footer__list__middle__link hover-footer" href="#">Terms &
+                    Conditions</a>
             </li>
-            <li class="footer__list__middle__item"><a class="footer__list__middle__link" href="#">Privacy Police</a>
+            <li class="footer__list__middle__item"><a class="footer__list__middle__link hover-footer" href="#">Privacy
+                    Police</a>
             </li>
-            <li class="footer__list__middle__item"><a class="footer__list__middle__link" href="#">Search</a>
+            <li class="footer__list__middle__item"><a class="footer__list__middle__link hover-footer"
+                    href="#">Search</a>
             </li>
         </ul>
-        <ul class="footer__list__right container undotted">
+        <ul class="footer__list__right undotted">
             <li class="footer__list__right__item">
                 <h2 class="footer__list__right__connect">Connect</h2>
                 <hr class="line__right " size=1px width=380px color="#666666">
             </li>
             <li>
-                <input class="footer__list__right__email" type="text" placeholder="Email">
+                <input class="footer__list__right__email" type="email" placeholder="Email">
                 <button class="footer__list__right__button bnt" type="button">JOIN</button>
             </li>
             <ul class="footer__list__icon undotted">
@@ -238,17 +252,60 @@
             </ul>
         </ul>
         <hr class="line__bottom" size=1px width=1180px color="#666666">
-        <ul class="footer__list__bottom container undotted">
-            <li class="footer__list__bottom__item">Company Rating</li>
-            <li class="footer__list__bottom__item stars"><img class="footer__list__bottom__image" src="./img/stars.png"
-                    alt="stars"></li>
-            <li class="footer__list__bottom__item copyright">Copyright © 2018 DLK • Design Life Kid</li>
-            <li class="footer__list__bottom__item web">Web Design — Direct Line Development</li>
+        <ul class="footer__list__bottom undotted">
+            <li class="footer__list__bottom__item-left company">Company Rating</li>
+            <li class="footer__list__bottom__item-left stars">
+                <img class="footer__list__bottom__image" src="./img/stars.png" alt="stars">
+                <img class="footer__list__bottom__image" src="./img/stars.png" alt="stars">
+                <img class="footer__list__bottom__image" src="./img/stars.png" alt="stars">
+                <img class="footer__list__bottom__image" src="./img/stars.png" alt="stars">
+                <img class="footer__list__bottom__image" src="./img/stars.png" alt="stars">
+
+            </li>
+            <li class="footer__list__bottom__item-middle copyright">Copyright © 2018 DLK • Design Life Kid</li>
+            <li class="footer__list__bottom__item-right web underline">Web Design — Direct Line Development</li>
         </ul>
     </footer>
-
+    <div class="popup">
+        <form action="" class="form__personal__data">
+            <ul class="form__wrapper__list undotted">
+                <li class="form__wrapper__item">
+                    <label class="form__wrapper__name" for="name">Name</label>
+                </li>
+                <li class="form__wrapper__item">
+                    <input class="form__wrapper__input__name hover" type="text" id="name">
+                </li>
+                <li class="form__wrapper__item">
+                    <label class="form__wrapper__phone" for="phone">Phone</label>
+                </li>
+                <li class="form__wrapper__item">
+                    <input class="form__wrapper__input__phone hover" type="text" id="phone">
+                </li>
+                <li class="form__wrapper__email">
+                    <label class="text__email" for="email">Email</label>
+                    <input class="input__email hover" type="text" id="email">
+                </li>
+                <li class="form__wrapper__item">
+                    <label class="form__wrapper__message" for="message">Message</label>
+                </li>
+                <li class="form__wrapper__item">
+                    <input class="form__wrapper__input__message hover" type="text" id="message">
+                </li>
+                <li class="checkbox__item">
+                    <input type="checkbox" class="chekbox__input" id="personal__data">
+                    <label for="personal__data" class="chekbox__label"></label>
+                    <p class="checkbox__item__paragraph">By clicking on the button, you consent to the processing of
+                        your personal data</p>
+                </li>
+                <li>
+                    <button class="form__wrapper__button bnt" type="button">SUBMIT</button>
+                </li>
+            </ul>
+            <input class="close__button" type="image" src="./img/close.png">
+        </form>
+    </div>
+    <script src="./js/script.js"></script>
     <!-- Footer End -->
-
 
 </body>
 

@@ -72,7 +72,7 @@
     padding: 13px 364px;
     line-height: 16px;
     text-align: center;
-    text-transform: uppercase;   
+    text-transform: uppercase;
     color: #FFFFFF;
     width: 1180px;
     height: 39px;
@@ -96,21 +96,21 @@
     opacity: 0;
 }
 
-#menu__toggle:checked ~ .menu__btn > span {
+#menu__toggle:checked~.menu__btn>span {
     transform: rotate(45deg);
 }
 
-#menu__toggle:checked ~ .menu__btn > span::before {
+#menu__toggle:checked~.menu__btn>span::before {
     top: 0;
     transform: rotate(0);
 }
 
-#menu__toggle:checked ~ .menu__btn > span::after {
+#menu__toggle:checked~.menu__btn>span::after {
     top: 0;
     transform: rotate(90deg);
 }
 
-#menu__toggle:checked ~ .menu__box {
+#menu__toggle:checked~.menu__box {
     visibility: visible;
     left: 0;
 }
@@ -127,11 +127,11 @@
     z-index: 1;
 }
 
-.menu__btn > span,
+.menu__btn>span,
 
-.menu__btn > span::before,
+.menu__btn>span::before,
 
-.menu__btn > span::after {
+.menu__btn>span::after {
     display: block;
     position: absolute;
     width: 100%;
@@ -139,12 +139,12 @@
     background-color: #D6CAC2;
 }
 
-.menu__btn > span::before {
+.menu__btn>span::before {
     content: '';
     top: -15px;
 }
 
-.menu__btn > span::after {
+.menu__btn>span::after {
     content: '';
     top: 15px;
 }
@@ -183,7 +183,7 @@
     margin-top: 30px;
 }
 
-.catalog__products__title {
+.catalog__title {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -194,59 +194,70 @@
     margin-bottom: 30px;
 }
 
-.catalog__products__list {
+.catalog__list {
     display: flex;
+    margin-bottom: 23px;
     gap: 20px;
 }
 
-.catalog__products__list__second {
-    display: flex;
-    margin-top: -155px;
-    margin-bottom: 155px;
-}
-
-.catalog__products__list__second__one {
+.catalog__list__apparel {
+    width: 125px;
+    position: absolute;
+    left: 23%;
+    top: 107%;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 32px;
-    color: #FFFFFF;
+    text-align: center;
+    color: #ffffff;
     text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
-    margin-left: 70px;
 }
 
-.catalog__products__list__second__two {
+
+
+.catalog__list__holiday {
+    width: 125px;
+    position: absolute;
+    left: 38.8%;
+    top: 107%;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 32px;
-    color: #FFFFFF;
+    text-align: center;
+    color: #ffffff;
     text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
-    margin-left: 77px;
 }
 
-.catalog__products__list__second__three {
+.catalog__list__toys {
+    position: absolute;
+    left: 56%;
+    top: 108.4%;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 32px;
-    color: #FFFFFF;
+    text-align: center;
+    color: #ffffff;
     text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
-    margin-left: 142px;
 }
 
-.catalog__products__list__second__four {
+.catalog__list__accessories {
+    position: absolute;
+    left: 68.6%;
+    top: 108.5%;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 32px;
-    color: #FFFFFF;
+    text-align: center;
+    color: #ffffff;
     text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
-    margin-left: 180px;
 }
 
 .catalog__products__nav {
@@ -331,7 +342,7 @@
     margin-bottom: 29px;
 }
 
-.rectangle__item__paragraph{
+.rectangle__item__paragraph {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -458,7 +469,7 @@
     margin-bottom: 20px;
 }
 
-.contacts__list__item__paragraph{
+.contacts__list__item__paragraph {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -473,4 +484,33 @@
     height: 196px;
 }
 
+.form__personal__data {
+    background: rgba(125, 151, 218, 0.8);
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.popup {
+    display: none;
+    position: absolute;
+    top: 22%;
+    left: 33%;
+    width: 680px;
+    height: 542px;
+}
+
+.open {
+    display: flex;
+}
+
+.close__button {
+    margin-left: 10px;
+    margin-top: -527px;
+}

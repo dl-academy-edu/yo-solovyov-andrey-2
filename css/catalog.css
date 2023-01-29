@@ -15,7 +15,7 @@
 
 .breadcrumb {
     display: flex;
-    margin-bottom: 49px;
+    margin-bottom: 50px;
 }
 
 .breadcrumb > li + li:before {

@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/common.css">
-    <link rel="stylesheet" href="../css/catalog.css">
-    <title>Catalog</title>
+    <link rel="stylesheet" href="../css/contactUs.css">
+    <title>Contact Us</title>
 </head>
 
 <body>
@@ -31,7 +31,7 @@
         <ul class="header__list__contact undotted">
             <li class="header__list__contact__item">
                 <img class="header__list__contact__image" src="../img/search.png" alt="loupe">
-                <a class="header__list__contact__link" href="./contactUs.html">CONTACT US</a>
+                <a class="header__list__contact__link" href="#">CONTACT US</a>
             </li>
         </ul>
     </header>
@@ -40,68 +40,59 @@
 
     <!-- Main Start -->
 
-    <h1 class="title container">CATEGORY PRODUCT</h1>
+    <h1 class="title container">CONTACT US</h1>
 
     <ul class="breadcrumb container undotted">
         <li class="breadcrumb__item"><a class="breadcrumb__link__home" href="../index.html">Home</a></li>
-        <li class="breadcrumb__item__active">Catalog</li>
+        <li class="breadcrumb__item__active">Contact Us</li>
     </ul>
-    <section class="catalog container">
-        <ul class="catalog__list undotted">
-            <li class="catalog__list__item">
-                <img class="catalog__list__image" src="../img/apparel.jpg" alt="sweatshirt">
-                <a class="catalog__list__apparel underline" href="#">APPAREL KIDS</a>
-            </li>
-            <li class="catalog__list__item">
-                <img class="catalog__list__image" src="../img/holiday.jpg" alt="sock">
-                <a class="catalog__list__holiday underline" href="#">HOLIDAY SHOP</a>
-            </li>
-            <li class="catalog__list__item">
-                <img class="catalog__list__image" src="../img/toys.jpg" alt="deer">
-                <a class="catalog__list__toys underline" href="../pages/toys.html">TOYS</a>
-            </li>
-        </ul>
-    </section>
-    <section class="catalog container">
-        <ul class="catalog__list__lower undotted">
-            <li class="catalog__list__item">
-                <img class="catalog__list__image" src="../img/accessories.jpg" alt="yeti">
-                <a class="catalog__list__accessories underline" href="#">ACCESSORIES</a>
-            </li>
-            <li class="catalog__list__item">
-                <img class="catalog__list__image" src="../img/sale.jpg" alt="flamingo">
-                <a class="catalog__list__sale underline" href="">SALE</a>
-            </li>
-            <li class="catalog__list__item">
-                <img class="catalog__list__image" src="../img/apparel2.jpg" alt="dress">
-                <a class="catalog__list__apparel__adults underline" href="">APPAREL ADULTS</a>
-            </li>
-        </ul>
-    </section>
-    <section class="description container ">
-        <ul class="description__list undotted">
-            <li>
-                <h2 class="description__title">PRODUCT DESCRIPTION</h2>
-            </li>
-            <li>
-                <p class="description__paragraph">Interactive doll Zapf Creation Baby Born Sister can drink from a
-                    bottle and almost really cry. You can even bathe her, just like
-                    a little sister.</p>
-            </li>
-            <li>
-                <p class="description__paragraph">
-                    A toy with a height of 43 cm bends its knees, the head rotates,
-                    it can stand upright. Such a doll will be an excellent choice
-                    for a gift for a girl from 4 years old.</p>
-            </li>
-            <li>
-                <p class="description__paragraph">
-                    The set includes a miniature set of fashionable clothes, a
-                    hairbrush, a bottle for water, a pair of hairpins and elastic
-                    bands for hair, as well as two bracelets: one for the doll,
-                    the other for her young mistress.</p>
-            </li>
-        </ul>
+    <section class="form container">
+        <form action="" class="form__personal__data">
+            <ul class="form__wrapper__list undotted">
+                <li class="form__wrapper__item">
+                    <label class="form__wrapper__name" for="name">Name</label>
+                </li>
+                <li class="form__wrapper__item">
+                    <input class="form__wrapper__input__name hover" type="text" id="name">
+                </li>
+                <li class="form__wrapper__item">
+                    <label class="form__wrapper__phone" for="phone">Phone</label>
+                </li>
+                <li class="form__wrapper__item">
+                    <input class="form__wrapper__input__phone hover" type="text" id="phone">
+                </li>
+                <li class="form__wrapper__email">
+                    <label class="text__email" for="email">Email</label>
+                    <input class="input__email hover" type="text" id="email">
+                </li>
+                <li class="form__wrapper__item">
+                    <label class="form__wrapper__message" for="message">Message</label>
+                </li>
+                <li class="form__wrapper__item">
+                    <input class="form__wrapper__input__message hover" type="text" id="message">
+                </li>
+                <li class="checkbox__item">
+                    <input type="checkbox" class="chekbox__input" id="personal__data">
+                    <label for="personal__data" class="chekbox__label"></label>
+                    <p class="checkbox__item__paragraph">By clicking on the button, you consent to the processing of
+                        your personal data</p>
+                </li>
+                <li>
+                    <button class="form__wrapper__button bnt" type="button">SUBMIT</button>
+                </li>
+            </ul>
+            <ul class="form__text__list undotted">
+                <li class="form__text__list__item">
+                    <p class="form__text__list__paragraph">Our support team are on-hand to assist with any issues you
+                        are experiencing.</p>
+                    <p class="form__text__list__paragraph">Please use the form to contact us with your needs. Send us a
+                        message and we'll respond as soon as possible.</p>
+                </li>
+                <li class="form__text__list__item">
+                    <h2 class="form__text__list__title">An expert is waiting to help you!</h2>
+                </li>
+            </ul>
+        </form>
     </section>
 
     <!-- Main End -->

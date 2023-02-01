@@ -44,7 +44,13 @@
 }
 
 .catalog__list {
-    column-count: 3;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.catalog__list__item {
+    width: 380px;
 }
 
 .catalog__list__img {

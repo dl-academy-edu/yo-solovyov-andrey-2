@@ -50,8 +50,10 @@
         <li class="breadcrumb__item__active">Toys</li>
     </ul>
     <section class="radio__checkbox">
-        <ul>
-            <!-- Ползунок -->
+        <ul class="range__list undotted">
+            <li class="range__list__title"><h2>Cost</h2></li>
+            <li class="range__list__input"><input type="range" value="160" min="0" max="500" oninput="rangevalue.value=value" /></li>
+            <li class="range__list__output"><output id="rangevalue">500</output></li>
         </ul>
         <ul class="checkbox__list undotted">
             <h2 class="checkbox__title">Color</h2>
@@ -106,42 +108,42 @@
     </section>
     <section class="toys container">
         <ul class="toys__list undotted">
-            <li>
+            <li class="toys__list__item">
                 <img class="toys__img" src="../img/shark.png" alt="shark">
                 <p class="toys__name">SHARKY BEAN BAG CHAIR COVER</p>
                 <p class="toys__prices">$60.00 USD</p>
             </li>
-            <li>
+            <li class="toys__list__item">
                 <img class="toys__img" src="../img/brass.png" alt="brass deco">
                 <p class="toys__name">BRASS DECO FRAMES</p>
                 <p class="toys__prices">$66.00 USD</p>
             </li>
-            <li>
+            <li class="toys__list__item">
                 <img class="toys__img" src="../img/cibo.png" alt="apron">
                 <p class="toys__name">CIBO FULL APRON</p>
                 <p class="toys__prices">$60.00 USD</p>
             </li>
-            <li>
+            <li class="toys__list__item">
                 <img class="toys__img" src="../img/gatcha.png" alt="gumball machine">
                 <p class="toys__name">GATCHA GATCHA GUMBALL MACHINE</p>
                 <p class="toys__prices">$56.00 USD</p>
             </li>
-            <li>
+            <li class="toys__list__item">
                 <img class="toys__img" src="../img/christmas.png" alt="">
                 <p class="toys__name">CHRISTMAS ADVENT SCENTED CANDLE</p>
                 <p class="toys__prices">$29.00 USD</p>
             </li>
-            <li>
+            <li class="toys__list__item">
                 <img class="toys__img" src="../img/tangle.png" alt="x-max candle">
                 <p class="toys__name">TANGLE SPINNING TEA LIGHT</p>
                 <p class="toys__prices">$56.00 USD</p>
             </li>
-            <ul class="toys__numbers__bottom undotted">
-                <li class="toys__numbers"><a class="toys__numbers__link one" href="#">1</a></li>
-                <li class="toys__numbers"><a class="toys__numbers__link hover-number" href="#">2</a></li>
-                <li class="toys__numbers"><a class="toys__numbers__link hover-number" href="#">3</a></li>
-                <li class="toys__numbers"><a class="toys__numbers__link hover-number" href="#">4</a></li>
-            </ul>
+        </ul>
+        <ul class="toys__numbers__bottom undotted">
+            <li class="toys__numbers"><a class="toys__numbers__link one" href="#">1</a></li>
+            <li class="toys__numbers"><a class="toys__numbers__link hover-number" href="#">2</a></li>
+            <li class="toys__numbers"><a class="toys__numbers__link hover-number" href="#">3</a></li>
+            <li class="toys__numbers"><a class="toys__numbers__link hover-number" href="#">4</a></li>
         </ul>
     </section>
 
@@ -233,6 +235,7 @@
             <li class="footer__list__bottom__item-right web underline">Web Design — Direct Line Development</li>
         </ul>
     </footer>
+    <script src="../js/slider.js"></script>
 
     <!-- Footer End -->
 

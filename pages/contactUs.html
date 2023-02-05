@@ -71,14 +71,15 @@
                 <li class="form__wrapper__item">
                     <input class="form__wrapper__input__message hover" type="text" id="message">
                 </li>
-                <li class="checkbox__item">
-                    <input type="checkbox" class="chekbox__input" id="personal__data">
-                    <label for="personal__data" class="chekbox__label"></label>
-                    <p class="checkbox__item__paragraph">By clicking on the button, you consent to the processing of
-                        your personal data</p>
-                </li>
+                <div class="formname">
+                    <input id="personal__data" type="checkbox" class="checkbox__input"
+                        onchange="document.getElementById('submit').disabled = !this.checked;" />
+                    <label for="personal__data" class="checkbox__label">By clicking on the button, you consent to the processing of
+                        your personal data
+                    </label>
+                    <input type="submit" disabled="disabled" class="form__wrapper__button btn"  id="submit" value="SUBMIT"></button>
+                </div>
                 <li>
-                    <button class="form__wrapper__button bnt" type="button">SUBMIT</button>
                 </li>
             </ul>
             <ul class="form__text__list undotted">
@@ -152,7 +153,7 @@
             </li>
             <li>
                 <input class="footer__list__right__email" type="email" placeholder="Email">
-                <button class="footer__list__right__button bnt" type="button">JOIN</button>
+                <button class="footer__list__right__button btn" type="button">JOIN</button>
             </li>
             <ul class="footer__list__icon undotted">
                 <li class="footer__list__icon"><a class="footer__list__icon__link" href="#"><img
@@ -183,7 +184,6 @@
             <li class="footer__list__bottom__item-right web underline">Web Design — Direct Line Development</li>
         </ul>
     </footer>
-
     <!-- Footer End -->
 
 </body>

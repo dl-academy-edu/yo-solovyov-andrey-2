@@ -51,37 +51,41 @@
     </ul>
     <section class="radio__checkbox">
         <ul class="range__list undotted">
-            <li class="range__list__title"><h2>Cost</h2></li>
-            <li class="range__list__input"><input type="range" value="160" min="0" max="500" oninput="rangevalue.value=value" /></li>
+            <li class="range__list__title">
+                <h2>Cost</h2>
+            </li>
+            <li class="range__list__input"><input aria-label="Range" type="range" value="160" min="0" max="500"
+                    oninput="rangevalue.value=value" /></li>
+            <li class="range__list__output_zero"><output id="rangevalue">0</output></li>
             <li class="range__list__output"><output id="rangevalue">500</output></li>
         </ul>
         <ul class="checkbox__list undotted">
             <h2 class="checkbox__title">Color</h2>
             <li class="checkbox__item">
-                <input type="checkbox" class="chekbox__input" id="black">
+                <input aria-label="Checkbox" type="checkbox" class="chekbox__input" id="black">
                 <label for="black" class="chekbox__label underline">Black</label>
             </li>
             <li class="checkbox__item">
-                <input type="checkbox" class="chekbox__input" id="blue">
+                <input aria-label="Checkbox" type="checkbox" class="chekbox__input" id="blue">
                 <label for="blue" class="chekbox__label underline">Blue</label>
             </li>
             <li class="checkbox__item">
-                <input type="checkbox" class="chekbox__input" id="green">
+                <input aria-label="Checkbox" type="checkbox" class="chekbox__input" id="green">
                 <label for="green" class="chekbox__label underline">Green</label>
             </li>
             <li class="checkbox__item">
-                <input type="checkbox" class="chekbox__input" id="white">
+                <input aria-label="Checkbox" type="checkbox" class="chekbox__input" id="white">
                 <label for="white" class="chekbox__label underline">White</label>
             </li>
         </ul>
         <ul class="radio__list undotted">
             <h2 class="radio__title">Delivery</h2>
             <li class="radio__item">
-                <input type="radio" class="radio__input" id="free shipping" name="s">
+                <input aria-label="Radio" type="radio" class="radio__input" id="free shipping" name="s">
                 <label for="free shipping" class="radio__label underline">Free shipping</label>
             </li>
             <li class="radio__item">
-                <input type="radio" class="radio__input" id="fast shipping" name="s">
+                <input aria-label="Radio" type="radio" class="radio__input" id="fast shipping" name="s">
                 <label for="fast shipping" class="radio__label underline">Fast shipping</label>
             </li>
         </ul>
@@ -89,19 +93,19 @@
             <h2 class="radio__button__title">Amount</h2>
             <ul class="form__radio__group">
                 <li class="form__radio__group-item">
-                    <input id="radio-1" type="radio" name="radio" value="1" checked>
+                    <input aria-label="Radio" id="radio-1" type="radio" name="radio" value="1" checked>
                     <label for="radio-1">0-5</label>
                 </li>
                 <li class="form__radio__group-item">
-                    <input id="radio-2" type="radio" name="radio" value="2">
+                    <input aria-label="Radio" id="radio-2" type="radio" name="radio" value="2">
                     <label for="radio-2">10-20</label>
                 </li>
                 <li class="form__radio__group-item">
-                    <input id="radio-3" type="radio" name="radio" value="3">
+                    <input aria-label="Radio" id="radio-3" type="radio" name="radio" value="3">
                     <label for="radio-3">20-50</label>
                 </li>
                 <li class="button undotted">
-                    <button class="button__toys bnt" type="button">APPLY</button>
+                    <button class="button__toys btn" type="button">APPLY</button>
                 </li>
             </ul>
         </ul>
@@ -110,41 +114,65 @@
         <ul class="toys__list undotted">
             <li class="toys__list__item">
                 <img class="toys__img" src="../img/shark.png" alt="shark">
+                <div class="toys__list__link">
+                    <a href="#">LEARN MORE</a>
+                </div>
                 <p class="toys__name">SHARKY BEAN BAG CHAIR COVER</p>
                 <p class="toys__prices">$60.00 USD</p>
             </li>
             <li class="toys__list__item">
                 <img class="toys__img" src="../img/brass.png" alt="brass deco">
+                <div class="toys__list__link">
+                    <a href="#">LEARN MORE</a>
+                </div>
                 <p class="toys__name">BRASS DECO FRAMES</p>
                 <p class="toys__prices">$66.00 USD</p>
             </li>
             <li class="toys__list__item">
                 <img class="toys__img" src="../img/cibo.png" alt="apron">
+                <div class="toys__list__link">
+                    <a href="#">LEARN MORE</a>
+                </div>
                 <p class="toys__name">CIBO FULL APRON</p>
                 <p class="toys__prices">$60.00 USD</p>
             </li>
             <li class="toys__list__item">
                 <img class="toys__img" src="../img/gatcha.png" alt="gumball machine">
+                <div class="toys__list__link">
+                    <a href="#">LEARN MORE</a>
+                </div>
                 <p class="toys__name">GATCHA GATCHA GUMBALL MACHINE</p>
                 <p class="toys__prices">$56.00 USD</p>
             </li>
             <li class="toys__list__item">
                 <img class="toys__img" src="../img/christmas.png" alt="">
+                <div class="toys__list__link">
+                    <a href="#">LEARN MORE</a>
+                </div>
                 <p class="toys__name">CHRISTMAS ADVENT SCENTED CANDLE</p>
                 <p class="toys__prices">$29.00 USD</p>
             </li>
             <li class="toys__list__item">
                 <img class="toys__img" src="../img/tangle.png" alt="x-max candle">
+                <div class="toys__list__link">
+                    <a href="#">LEARN MORE</a>
+                </div>
                 <p class="toys__name">TANGLE SPINNING TEA LIGHT</p>
                 <p class="toys__prices">$56.00 USD</p>
             </li>
         </ul>
         <ul class="toys__numbers__bottom undotted">
+            <li class="toys__arrow"><a class="toys__arrow__left" href="#"><img class="toys__arrow__left__img"
+                        src="../img/arrowLeft.png" alt="arrowLeft"></a></li>
             <li class="toys__numbers"><a class="toys__numbers__link one" href="#">1</a></li>
             <li class="toys__numbers"><a class="toys__numbers__link hover-number" href="#">2</a></li>
             <li class="toys__numbers"><a class="toys__numbers__link hover-number" href="#">3</a></li>
             <li class="toys__numbers"><a class="toys__numbers__link hover-number" href="#">4</a></li>
+            <li class="toys__arrow"><a class="toys__arrow__right" href="#"><img src="../img/arrowRight.png"
+                        alt="arrowRight"></a></li>
         </ul>
+
+
     </section>
 
     <!-- Main End -->
@@ -204,7 +232,7 @@
             </li>
             <li>
                 <input class="footer__list__right__email" type="email" placeholder="Email">
-                <button class="footer__list__right__button bnt" type="button">JOIN</button>
+                <button class="footer__list__right__button btn" type="button">JOIN</button>
             </li>
             <ul class="footer__list__icon undotted">
                 <li class="footer__list__icon"><a class="footer__list__icon__link" href="#"><img

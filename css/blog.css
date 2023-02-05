@@ -105,6 +105,12 @@
     color: #1E0606;
 }
 
+.toys__arrow {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 390px 0px 390px;
+}
+
 .one {
     color: #C29974;
 }

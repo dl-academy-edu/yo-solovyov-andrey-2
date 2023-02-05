@@ -15,19 +15,19 @@ a {
 	text-decoration: none;
 }
 
-.bnt {
+.btn {
 	background: #000000;
 	padding: 9px 22px;
 	border: none;
 }
 
-.bnt:hover {
+.btn:hover {
 	background: #C29974;
 	cursor: pointer;
 }
 
 .underline:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 	cursor: pointer;
 }
 
@@ -40,7 +40,7 @@ a {
 }
 
 .hover:hover {
-    border: 1px solid #C29974;
+	border: 1px solid #C29974;
 }
 
 .undotted {
@@ -231,7 +231,6 @@ a {
 
 ::-webkit-input-placeholder {
 	color: rgb(255, 255, 255);
-
 }
 
 input {
@@ -360,7 +359,6 @@ input {
 	padding-left: 310px;
 	margin-top: -95px;
 	margin-bottom: 20px;
-
 }
 
 .text__email {
@@ -378,7 +376,6 @@ input {
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	margin-top: 3px;
 	padding: 5px;
-
 }
 
 .form__wrapper__message {
@@ -396,18 +393,17 @@ input {
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	margin-bottom: 20px;
 	padding: 10px 5px 100px 10px;
-
 }
 
 .checkbox__item {
 	padding-left: 25px;
 }
 
-.chekbox__input {
+.checkbox__input {
 	display: none;
 }
 
-.chekbox__label::before {
+.checkbox__label::before {
 	position: absolute;
 	margin-left: -25px;
 	content: '';
@@ -419,7 +415,7 @@ input {
 	background-repeat: no-repeat;
 }
 
-.chekbox__input:checked+.chekbox__label::before {
+.checkbox__input:checked+.checkbox__label::before {
 	content: '';
 	width: 19px;
 	height: 19px;
@@ -444,4 +440,29 @@ input {
 	font-size: 16px;
 	line-height: 22px;
 	color: #FFFFFF;
+}
+
+.formname input[type="checkbox"]+label {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	color: #1E0606;
+	padding-left: 25px;
+}
+
+.formname input[type="submit"] {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+	margin-top: 20px;
+}
+
+.formname input[disabled] {
+	background: #C7C1C1;
+	cursor: not-allowed;
 }

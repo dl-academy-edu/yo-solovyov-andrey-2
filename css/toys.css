@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&display=swap');
+
+.title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #1E0606;
+    padding-top: 60px;
+    margin-bottom: 15px;
+}
+
+
+.breadcrumb {
+    display: flex;
+    margin-bottom: 49px;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb>li+li:before {
+    padding: 20px;
+    color: #1E0606;
+    content: ">";
+}
+
+.breadcrumb__link__home {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+}
+
+.breadcrumb__item__active {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+    opacity: 0.5;
+}
+
+.radio__checkbox {
+    height: 254px;
+    background: rgba(125, 151, 218, 0.2);
+    -webkit-background-size: 100%;
+    padding-left: 270px;
+    margin-bottom: 60px;
+}
+
+.range__list {
+    padding-left: 100px;
+}
+
+.range__list__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    margin-bottom: 15px;
+    padding-top: 42px;
+}
+
+.range__list__output_zero {
+    padding-top: 20px;
+}
+
+.range__list__output {
+    padding-left: 170px;
+    margin-top: -20px;
+
+}
+
+input,
+output {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 188px;
+    height: 4px;
+    background: rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(#C29974, #C29974);
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 24px;
+    width: 24px;
+    background: url('../img/slider_thumb.png');
+    cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+}
+
+.checkbox__list {
+    padding-left: 411px;
+}
+
+.checkbox__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    margin-bottom: 15px;
+    margin-top: -95px;
+}
+
+.checkbox__item {
+    margin-bottom: 15px;
+    padding-left: 25px;
+}
+
+.chekbox__input {
+    display: none;
+}
+
+.chekbox__label {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
+
+.chekbox__label::before {
+    position: absolute;
+    margin-left: -25px;
+    content: '';
+    cursor: pointer;
+    width: 19px;
+    height: 19px;
+    background-image: url('../img/chekboxoff.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.chekbox__input:checked+.chekbox__label::before {
+    content: '';
+    width: 19px;
+    height: 19px;
+    background-image: url('../img/chekboxon.png');
+}
+
+.radio__list {
+    padding-left: 600px;
+    margin-top: -185px;
+}
+
+.radio__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    margin-bottom: 15px;
+}
+
+.radio__item {
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+
+.radio__input {
+    display: none;
+}
+
+.radio__label {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    margin-bottom: 25px;
+}
+
+.radio__label::before {
+    position: absolute;
+    margin-left: -25px;
+    content: '';
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/radioOff.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.radio__input:checked+.radio__label::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/radioOn.png');
+}
+
+.radio__button {
+    padding-left: 800px;
+    margin-top: -112px;
+}
+
+.button__input {
+    display: none;
+}
+
+.radio__button__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    margin-bottom: 15px;
+}
+
+.form__radio__group-item {
+    display: inline-block;
+    float: left;
+    background: #f8f8f8;
+}
+
+.form__radio__group-item:hover {
+    background: #EDDEEB
+}
+
+.form__radio__group input[type=radio] {
+    display: none;
+}
+
+.form__radio__group label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0px 15px;
+    line-height: 34px;
+}
+
+.form__radio__group input[type=radio]:checked+label {
+    background: #F3D0DB;
+}
+
+.form__radio_group label:hover {
+    color: #877379;
+}
+
+.button__toys {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-left: 100px;
+}
+
+.toys__arrow {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 350px 0px 350px;
+}
+
+.toys__list {
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.toys__list__item {
+    width: 380px;
+}
+
+.toys__img {
+    margin-bottom: 30px;
+}
+
+.toys__list li {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.toys__list li  a {
+    display: block;
+    text-decoration: none;
+    color: #1E0606;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 29px;
+    text-align: center;
+}
+
+.toys__list li > div {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    top: 89px;
+    left: 89px;
+    opacity: 0;
+    background-color: rgba(229, 234, 248, 0.9);
+    transition: all 0.4s ease-in-out;
+    width: 207px;
+    height: 207px;
+}
+
+.toys__list li:hover div {
+    opacity: 1;
+}
+
+.toys__name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #1E0606;
+    margin-bottom: 15px;
+}
+
+.toys__prices {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #1E0606;
+    margin-bottom: 75px;
+}
+
+.toys__numbers__bottom {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1E0606;
+}
+
+.toys__numbers__link {
+    color: #1E0606;
+}
+
+.one {
+    color: #C29974;
+}

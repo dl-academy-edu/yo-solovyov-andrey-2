@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&display=swap');
+
+.title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #1E0606;
+    padding-top: 60px;
+    margin-bottom: 15px;
+}
+
+.breadcrumb {
+    display: flex;
+    margin-bottom: 49px;
+}
+
+.breadcrumb > li + li:before {
+    padding: 20px;
+    color: #1E0606;
+    content: ">";
+}
+
+.breadcrumb__link__home {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+}
+
+.breadcrumb__item__active {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+    opacity: 0.5;
+}
+
+.catalog__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.catalog__list__item {
+    width: 380px;
+}
+
+.catalog__list__img {
+    margin-bottom: 20px;
+}
+
+.catalog__list__paragraph__date {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #818181;
+    mix-blend-mode: normal;
+    margin-bottom: 7px;
+}
+
+.catalog__list__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #1E0606;
+    margin-bottom: 15px;
+}
+
+.catalog__list__paragraph {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1E0606;
+    margin-bottom: 50px;
+}
+
+.catalog__list__number__bottom {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    padding-top: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1E0606;
+}
+
+.catalog__list__number__link {
+    color: #1E0606;
+}
+
+.toys__arrow {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 390px 0px 390px;
+}
+
+.one {
+    color: #C29974;
+}
+
